@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9588F63327470BBB00FF30DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9588F63227470BBB00FF30DF /* GoogleService-Info.plist */; };
+		95BC02B827485DA300378A12 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BC02B727485DA300378A12 /* MenuViewController.swift */; };
+		95C461212734789800E2BAE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C461202734789800E2BAE5 /* AppDelegate.swift */; };
+		95C461232734789800E2BAE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C461222734789800E2BAE5 /* SceneDelegate.swift */; };
+		95C461252734789800E2BAE5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C461242734789800E2BAE5 /* LoginViewController.swift */; };
+		95C461282734789800E2BAE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C461262734789800E2BAE5 /* Main.storyboard */; };
+		95C4612A2734789B00E2BAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C461292734789B00E2BAE5 /* Assets.xcassets */; };
+		95C4612D2734789B00E2BAE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C4612B2734789B00E2BAE5 /* LaunchScreen.storyboard */; };
+		95ECD6B02753E9EA0020F1FC /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ECD6AF2753E9EA0020F1FC /* PerfilViewController.swift */; };
+		95ECD6B32753ED5E0020F1FC /* DataUser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95ECD6B12753ED5E0020F1FC /* DataUser.xcdatamodeld */; };
+		95ECD6B727546AD30020F1FC /* RegistrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ECD6B627546AD30020F1FC /* RegistrarViewController.swift */; };
+		95ECD6BA27547AC70020F1FC /* usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ECD6B927547AC70020F1FC /* usuario.swift */; };
+		95ECD6BC27547BF50020F1FC /* userViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ECD6BB27547BF50020F1FC /* userViewModel.swift */; };
+		95F2D3D7275527E30038AB00 /* DeliveryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2D3D6275527E30038AB00 /* DeliveryResponse.swift */; };
+		95F2D3DB275598800038AB00 /* DeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2D3DA275598800038AB00 /* DeliveryViewController.swift */; };
+		95F2D3DD275599BC0038AB00 /* DeliveryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2D3DC275599BC0038AB00 /* DeliveryTableViewCell.swift */; };
+		BD363178CA35391770023E3D /* Pods_DAM_II_LA_CALERA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBC380F22AB6C4FFB404528 /* Pods_DAM_II_LA_CALERA.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93D6176309E0FB67B026E9D1 /* Pods-DAM_II_LA_CALERA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAM_II_LA_CALERA.release.xcconfig"; path = "Target Support Files/Pods-DAM_II_LA_CALERA/Pods-DAM_II_LA_CALERA.release.xcconfig"; sourceTree = "<group>"; };
+		9588F63227470BBB00FF30DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		95BC02B727485DA300378A12 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		95C4611D2734789800E2BAE5 /* DAM_II_LA_CALERA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAM_II_LA_CALERA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C461202734789800E2BAE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95C461222734789800E2BAE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95C461242734789800E2BAE5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		95C461272734789800E2BAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95C461292734789B00E2BAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95C4612C2734789B00E2BAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95C4612E2734789B00E2BAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95ECD6AF2753E9EA0020F1FC /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		95ECD6B22753ED5E0020F1FC /* DataUser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataUser.xcdatamodel; sourceTree = "<group>"; };
+		95ECD6B627546AD30020F1FC /* RegistrarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarViewController.swift; sourceTree = "<group>"; };
+		95ECD6B927547AC70020F1FC /* usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usuario.swift; sourceTree = "<group>"; };
+		95ECD6BB27547BF50020F1FC /* userViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userViewModel.swift; sourceTree = "<group>"; };
+		95F2D3D6275527E30038AB00 /* DeliveryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryResponse.swift; sourceTree = "<group>"; };
+		95F2D3DA275598800038AB00 /* DeliveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryViewController.swift; sourceTree = "<group>"; };
+		95F2D3DC275599BC0038AB00 /* DeliveryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryTableViewCell.swift; sourceTree = "<group>"; };
+		9DBC380F22AB6C4FFB404528 /* Pods_DAM_II_LA_CALERA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DAM_II_LA_CALERA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7FA113F0C2E797B4A85782 /* Pods-DAM_II_LA_CALERA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAM_II_LA_CALERA.debug.xcconfig"; path = "Target Support Files/Pods-DAM_II_LA_CALERA/Pods-DAM_II_LA_CALERA.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95C4611A2734789800E2BAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD363178CA35391770023E3D /* Pods_DAM_II_LA_CALERA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9588F63427470FA500FF30DF /* autenticacion */ = {
+			isa = PBXGroup;
+			children = (
+				95C461242734789800E2BAE5 /* LoginViewController.swift */,
+				95ECD6B627546AD30020F1FC /* RegistrarViewController.swift */,
+			);
+			path = autenticacion;
+			sourceTree = "<group>";
+		};
+		9588F63727473DFD00FF30DF /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				95BC02B727485DA300378A12 /* MenuViewController.swift */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		95BC02B227484B8700378A12 /* pedido */ = {
+			isa = PBXGroup;
+			children = (
+				95F2D3D6275527E30038AB00 /* DeliveryResponse.swift */,
+			);
+			path = pedido;
+			sourceTree = "<group>";
+		};
+		95C461142734789800E2BAE5 = {
+			isa = PBXGroup;
+			children = (
+				95C4611F2734789800E2BAE5 /* DAM_II_LA_CALERA */,
+				95C4611E2734789800E2BAE5 /* Products */,
+				AEA6E22A3C0C4ED0E721F4C3 /* Pods */,
+				D41AF45D477D411ED5FF20DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95C4611E2734789800E2BAE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95C4611D2734789800E2BAE5 /* DAM_II_LA_CALERA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95C4611F2734789800E2BAE5 /* DAM_II_LA_CALERA */ = {
+			isa = PBXGroup;
+			children = (
+				95ECD6B827547AAE0020F1FC /* FireStore */,
+				95ECD6AE2753E9A50020F1FC /* perfil */,
+				95E30C152753355800942D19 /* buscar */,
+				95BC02B227484B8700378A12 /* pedido */,
+				9588F63727473DFD00FF30DF /* menu */,
+				9588F63427470FA500FF30DF /* autenticacion */,
+				95C461202734789800E2BAE5 /* AppDelegate.swift */,
+				95C461222734789800E2BAE5 /* SceneDelegate.swift */,
+				95C461262734789800E2BAE5 /* Main.storyboard */,
+				95C461292734789B00E2BAE5 /* Assets.xcassets */,
+				95C4612B2734789B00E2BAE5 /* LaunchScreen.storyboard */,
+				9588F63227470BBB00FF30DF /* GoogleService-Info.plist */,
+				95C4612E2734789B00E2BAE5 /* Info.plist */,
+				95ECD6B12753ED5E0020F1FC /* DataUser.xcdatamodeld */,
+			);
+			path = DAM_II_LA_CALERA;
+			sourceTree = "<group>";
+		};
+		95E30C152753355800942D19 /* buscar */ = {
+			isa = PBXGroup;
+			children = (
+				95F2D3DA275598800038AB00 /* DeliveryViewController.swift */,
+				95F2D3DC275599BC0038AB00 /* DeliveryTableViewCell.swift */,
+			);
+			path = buscar;
+			sourceTree = "<group>";
+		};
+		95ECD6AE2753E9A50020F1FC /* perfil */ = {
+			isa = PBXGroup;
+			children = (
+				95ECD6AF2753E9EA0020F1FC /* PerfilViewController.swift */,
+			);
+			path = perfil;
+			sourceTree = "<group>";
+		};
+		95ECD6B827547AAE0020F1FC /* FireStore */ = {
+			isa = PBXGroup;
+			children = (
+				95ECD6B927547AC70020F1FC /* usuario.swift */,
+				95ECD6BB27547BF50020F1FC /* userViewModel.swift */,
+			);
+			path = FireStore;
+			sourceTree = "<group>";
+		};
+		AEA6E22A3C0C4ED0E721F4C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE7FA113F0C2E797B4A85782 /* Pods-DAM_II_LA_CALERA.debug.xcconfig */,
+				93D6176309E0FB67B026E9D1 /* Pods-DAM_II_LA_CALERA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D41AF45D477D411ED5FF20DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DBC380F22AB6C4FFB404528 /* Pods_DAM_II_LA_CALERA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95C4611C2734789800E2BAE5 /* DAM_II_LA_CALERA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C461312734789B00E2BAE5 /* Build configuration list for PBXNativeTarget "DAM_II_LA_CALERA" */;
+			buildPhases = (
+				2AB9BF1218F5CA9060FD94B2 /* [CP] Check Pods Manifest.lock */,
+				95C461192734789800E2BAE5 /* Sources */,
+				95C4611A2734789800E2BAE5 /* Frameworks */,
+				95C4611B2734789800E2BAE5 /* Resources */,
+				8B587FD0E01A8AC3ECA5C09F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DAM_II_LA_CALERA;
+			productName = DAM_II_LA_CALERA;
+			productReference = 95C4611D2734789800E2BAE5 /* DAM_II_LA_CALERA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95C461152734789800E2BAE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					95C4611C2734789800E2BAE5 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 95C461182734789800E2BAE5 /* Build configuration list for PBXProject "DAM_II_LA_CALERA" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95C461142734789800E2BAE5;
+			productRefGroup = 95C4611E2734789800E2BAE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95C4611C2734789800E2BAE5 /* DAM_II_LA_CALERA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95C4611B2734789800E2BAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C4612D2734789B00E2BAE5 /* LaunchScreen.storyboard in Resources */,
+				9588F63327470BBB00FF30DF /* GoogleService-Info.plist in Resources */,
+				95C4612A2734789B00E2BAE5 /* Assets.xcassets in Resources */,
+				95C461282734789800E2BAE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB9BF1218F5CA9060FD94B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DAM_II_LA_CALERA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B587FD0E01A8AC3ECA5C09F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DAM_II_LA_CALERA/Pods-DAM_II_LA_CALERA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DAM_II_LA_CALERA/Pods-DAM_II_LA_CALERA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DAM_II_LA_CALERA/Pods-DAM_II_LA_CALERA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95C461192734789800E2BAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F2D3D7275527E30038AB00 /* DeliveryResponse.swift in Sources */,
+				95ECD6BA27547AC70020F1FC /* usuario.swift in Sources */,
+				95ECD6BC27547BF50020F1FC /* userViewModel.swift in Sources */,
+				95ECD6B02753E9EA0020F1FC /* PerfilViewController.swift in Sources */,
+				95C461252734789800E2BAE5 /* LoginViewController.swift in Sources */,
+				95F2D3DD275599BC0038AB00 /* DeliveryTableViewCell.swift in Sources */,
+				95BC02B827485DA300378A12 /* MenuViewController.swift in Sources */,
+				95C461212734789800E2BAE5 /* AppDelegate.swift in Sources */,
+				95C461232734789800E2BAE5 /* SceneDelegate.swift in Sources */,
+				95F2D3DB275598800038AB00 /* DeliveryViewController.swift in Sources */,
+				95ECD6B727546AD30020F1FC /* RegistrarViewController.swift in Sources */,
+				95ECD6B32753ED5E0020F1FC /* DataUser.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95C461262734789800E2BAE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95C461272734789800E2BAE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95C4612B2734789B00E2BAE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95C4612C2734789B00E2BAE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95C4612F2734789B00E2BAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95C461302734789B00E2BAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95C461322734789B00E2BAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7FA113F0C2E797B4A85782 /* Pods-DAM_II_LA_CALERA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VV6R5WP26T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DAM_II_LA_CALERA/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cibertec.DAM-II-LA-CALERA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95C461332734789B00E2BAE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D6176309E0FB67B026E9D1 /* Pods-DAM_II_LA_CALERA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VV6R5WP26T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DAM_II_LA_CALERA/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cibertec.DAM-II-LA-CALERA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95C461182734789800E2BAE5 /* Build configuration list for PBXProject "DAM_II_LA_CALERA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C4612F2734789B00E2BAE5 /* Debug */,
+				95C461302734789B00E2BAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C461312734789B00E2BAE5 /* Build configuration list for PBXNativeTarget "DAM_II_LA_CALERA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C461322734789B00E2BAE5 /* Debug */,
+				95C461332734789B00E2BAE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95ECD6B12753ED5E0020F1FC /* DataUser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95ECD6B22753ED5E0020F1FC /* DataUser.xcdatamodel */,
+			);
+			currentVersion = 95ECD6B22753ED5E0020F1FC /* DataUser.xcdatamodel */;
+			path = DataUser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95C461152734789800E2BAE5 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_DAM_II_LA_CALERA {
+  umbrella header "Pods-DAM_II_LA_CALERA-umbrella.h"
+
+  export *
+  module * { export * }
+}
